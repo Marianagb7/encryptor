@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,
+    200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,
+    600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,
+    100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Encryptor</title>
+    
+</head>
+<body>
+        
+    <main class="main-container">
+        <div class="logo">
+            <img class="logoimg" src="images/logo.png" title="logoalura" /> 
+            <h1 class="title">ENCRIPTADOR DE MENSAJES</h1> 
+                  
+        </div>
+        
+        
+        <div class="card-main">
+            <div class="container-message">
+                <input class="tex-input" type="text" id="message" placeholder="Ingresa el texto aquí.....">
+                <div class="container-errors"></div>
+            </div> 
+            <div class="container-buttons">
+                <p class="text">!Ingresa minúsculas sin acento</p>
+                <button class="btn-encrypt" id="encrypt">Encriptar</button>
+                <button class="btn-decrypt" id="decrypt">Desencriptar</button> 
+    
+            </div>                   
+            
+        </div>
+        
+
+        <div class="card-result">
+            <img src="/images/imagen.png" alt="personaje" id="imagecard">
+            <div class="container-message">
+                <input class="tex-input2" type="text" id="result" placeholder="Resultado!">
+
+            </div> 
+            <div class="container-buttons2">
+                <button class="btn-copy"  id="copy">Copiar</button>
+                <button class="btn-listen" id="listen">Escuchar</button>
+            </div>              
+           
+        </div>
+        
+                
+    </main>
+    
+    <script src="main.js"></script>
+    
+</body>
+
+</html>
