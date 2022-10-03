@@ -96,10 +96,10 @@ body {
     background: #f3f5fC;
 }
 
-#imagecard {
-    margin-top: 5%;
-    width: 90%;
-    height: 38%;
+.imagecard {
+    margin-top: 2%;
+    width: 100%;
+    height: 30%;
     margin-left: 2%;
 }
 
